@@ -9,6 +9,17 @@ import Loading from "./Loading";
 import Error from "./Error";
 import Services from "./Services";
 import Contact from "./Contact";
+import PageHero from "./PageHero";
+import CartContent from "./CartContent";
+import CartColumns from "./CartColumns";
+import CartItem from "./CartItem";
+import AmountButtons from "./AmountButtons";
+import CartTotals from "./CartTotals";
+import Filters from "./Filters";
+import Sort from "./Sort";
+import ProductList from "./ProductList";
+import ListView from "./ListView";
+import GridView from "./GridView";
 
 export {
   Navbar,
@@ -22,4 +33,15 @@ export {
   Error,
   Services,
   Contact,
+  PageHero,
+  CartContent,
+  CartColumns,
+  CartItem,
+  AmountButtons,
+  CartTotals,
+  Filters,
+  Sort,
+  ProductList,
+  ListView,
+  GridView,
 };
