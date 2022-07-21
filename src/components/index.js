@@ -20,6 +20,10 @@ import Sort from "./Sort";
 import ProductList from "./ProductList";
 import ListView from "./ListView";
 import GridView from "./GridView";
+import ProductImages from "./ProductImages";
+import Stars from "./Stars";
+import AddToCart from "./AddToCart";
+import StripeCheckout from "./StripeCheckout";
 
 export {
   Navbar,
@@ -44,4 +48,8 @@ export {
   ProductList,
   ListView,
   GridView,
+  ProductImages,
+  Stars,
+  AddToCart,
+  StripeCheckout,
 };
