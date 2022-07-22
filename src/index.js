@@ -8,14 +8,14 @@ import { CartProvider } from "./context/cartContext";
 import { ProductsProvider } from "./context/productsContext";
 import { FilterProvider } from "./context/filterContext";
 
-// const domain = process.env.REACT_APP_AUTH0_DOMAIN;
-// const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+const domain = process.env.REACT_APP_AUTH0_DOMAIN;
+const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Auth0Provider
-    domain="keezy.us.auth0.com"
-    clientId="hnhpufgGJZgeHpMv7a5X0MEK5Zw9PC11"
+    domain={domain}
+    clientId={clientId}
     redirectUri={window.location.origin}
     cacheLocation="localstorage"
   >
