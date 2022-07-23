@@ -2,7 +2,7 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import logo from "../assets/logo.svg";
+import logo from "../assets/Keezy's Comfy.jpg";
 import { useProductsContext } from "../context/productsContext";
 import { useUserContext } from "../context/userContext";
 import { links } from "../utilities/constants";

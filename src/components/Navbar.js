@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../assets/Keezy's Comfy.jpg";
 import { FaBars } from "react-icons/fa";
 import { links } from "../utilities/constants";
 import { useUserContext } from "../context/userContext";

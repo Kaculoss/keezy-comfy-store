@@ -28,8 +28,8 @@ const AuthWrapper = ({ children }) => {
 
 const Wrapper = styled.section`
   min-height: 100vh;
-  dispaly: grid;
-  place-item: center;
+  display: grid;
+  place-items: center;
 `;
 
 export default AuthWrapper;
